@@ -263,7 +263,6 @@ module.exports = {
         // Play song command
         playSong: {
           authorName: 'Reproduciendo..',
-          url: 'https://discord.gg/xQF9f9yUEM',
           song: 'Canción',
           duration: 'Duración',
           source: 'Fuente'
@@ -272,35 +271,30 @@ module.exports = {
         // Add song command
         addSong: {
           authorName: 'Agregado a la Cola',
-          url: 'https://discord.gg/xQF9f9yUEM',
           addedToQueue: 'agregado a la cola'
         },
       
         // Error command
         error: {
           authorName: '¡Alerta!',
-          url: 'https://discord.gg/xQF9f9yUEM',
           errorMessage: 'Se encontró un error'
         },
       
         // Finish command
         finish: {
           authorName: 'Cola Terminada',
-          url: 'https://discord.gg/xQF9f9yUEM',
           description: '¡La cola ha terminado!'
         },
       
         // Disconnect command
         disconnect: {
           authorName: 'Desconectado',
-          url: 'https://discord.gg/xQF9f9yUEM',
           description: 'Desconectado del canal de voz'
         },
       
         // Empty command
         empty: {
           authorName: 'Canal Vacío',
-          url: 'https://discord.gg/xQF9f9yUEM',
           description: 'El canal de voz está vacío, saliendo del canal.'
         }
       };
